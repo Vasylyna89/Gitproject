@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner div{
+    width: 100%;
+    display: flex;
+   margin: auto;
+    justify-content: space-between; 
+    position: relative
+}
+
+
+.square{
+    margin: 10px;
+    background-color: rgb(215, 21, 21);
+    height: 200px;
+    width: 200px;
+    display: inline-block
+
+}
+.square2{
+   
+    margin: 10px;
+    background-color: rgb(241, 22, 153);
+    height: 200px;
+    width: 200px;
+    display: inline-block
+
+}
+.square3{
+   
+    margin: 10px;
+    background-color: rgb(246, 241, 244);
+    height: 150px;
+    width: 150px;
+    display: inline-block
+
+}
+
+.button {
+    width: 100%;
+    display: flex;
+   margin: auto;
+   padding: 30px 0;
+    justify-content: space-between; 
+    position: relative
+}

@@ -1,0 +1,33 @@
+ul{
+    list-style: square;
+}
+ul li{
+color: blue;
+font-size: 24px;
+}
+
+ol li{
+    font-size: 20%;
+    color: brown;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th{
+border: 1px solid black;
+font-size: 24px;
+padding: 10px;
+
+}
+
+table2{
+    border-collapse: collapse;
+    
+}
+ td, th{
+border: 1px solid black;
+font-size: 24px;
+padding: 10px;
+
+}

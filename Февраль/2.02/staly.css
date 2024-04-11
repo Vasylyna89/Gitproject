@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 5px solid blue;
+    width: 600px;
+    margin: 0 auto;
+    height: 1500px;
+    position: relative;
+
+}
+
+.container div {
+    color: aqua;
+    padding: 10px 0;
+    text-align: center;
+   
+}
+/* У всех эл. position ( по умолчанию): static, и с этим значением не работают свойства
+left, right, bottom, top, z-index */
+.block1 {
+    background-color: brown;
+}
+
+.block2 {
+    background-color: rgb(42, 165, 126);
+    /* position: relative;
+    top: 30px;
+    left: 20px; */
+
+
+    /* position: absolute; -теряет связь с родительским елементом. но возмоно вернуть связь с контейнером
+    top: 20px;
+    left: 40px;
+    width: 100%;  */
+    /* position: fixed; теряет связь с родительским елементом. и не возмоно вернуть связь с контейнером */
+    /* top: 0;
+    left: 0; */
+    /* width:100;
+    bottom: 0;
+    left: 0; */
+    /* position: sticky; /*Липкий - он всегда остается на одной позиции-фиксируется 
+      top: 0; */
+
+
+}
+
+.block3 {
+    background-color: rgb(222, 241, 50);
+    /* position: relative;
+    z-index: 10; */
+}
+
+.block4 {
+    background-color: rgb(165, 42, 110);
+}

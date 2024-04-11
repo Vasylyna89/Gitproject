@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    width: 420px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+input {
+    border-radius: 23px;
+    padding: 8px;
+    border: 1px solid darkgrey;
+    outline: none;
+    font-size: 1rem;}

@@ -1,0 +1,48 @@
+/*  cntr + / Koment */
+h1 {
+    color:rgb(3, 121, 121);
+    font-size: 35px;
+    text-align: center;
+
+}
+.post-1{
+    width: 70%;
+    margin: auto;
+    background-color: orange;
+    padding: 10px;
+}
+.post-2{
+    width: auto; ширина блока div
+    background-color: aqua;
+}
+h3{
+    font-size: 28px;
+    color:blue;
+    text-align: center;
+}
+p,a {
+    text-align: center;
+    font-size: 24px;
+}
+
+a{
+display: block;
+}
+
+img{
+    display: block;
+    width: 50%;
+    margin: c
+}
+
+
+}
+.title-1{
+    color: red;
+    
+}
+.title-2{
+    color: violet
+}
+
+

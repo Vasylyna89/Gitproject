@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.focus{
+    width: 800px;
+    height: 800px;
+    position: relative;
+    margin: 0;
+    
+}
+.focus div{
+    width: 200px;
+    height: 200px;
+     display: flex;
+    position: absolute;
+}
+.red{
+    background-color: red;
+    top: 0;
+    left:  0;
+}
+.green{
+    background-color: green;
+    top: 30px;
+    left:  90px;
+    z-index: 1;
+    
+}
+.blue{ 
+    background-color: blue;
+    top: 100px;
+    left: 150px;
+}
+
+:hover .green{
+    transform: scale(1.2) rotate(45rad);
+   }

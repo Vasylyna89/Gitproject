@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: ;
+    box-sizing: border-box;
+}
+header{
+    background-color: az
+    padding: 20px 0;
+    margin-border: 40px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h1:hover{
+    color: red;
+}
+
+.item{
+width: calc(50% - 20px); /*ширина*/
+height: 250px;           /* висота*/
+background-color: blueviolet;
+margin: 10px; /*внешний отступ*/
+box-shadow: -13px -11px 18px 12px rgba(34, 60, 80, 0.21);; /*настройки параметри тени любово добавлени(тескт или кртинка) */
+transition: 1s; /*время */ }
+
+.item:hover{
+   transform : scale(1.1) rotate(10deg); /* scale - маштабировання, на сколько больше должена картинка 
+    видвигатся. rotate - поворрот картинки */
+}
+.container{
+    width: 85%;
+    background-color: azure;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+ 
+.item-1{
+    background-image:url(./imag/1.jpg);
+    background-size: cover;
+    /*background-poisition^:no-repeat";
+    background-position:center; */ 
+}
+.item-2{
+    background-image: url(./imag/images2.jpg);
+    background-size: cover;
+}
+ .item-3{
+    background-image: url(./imag/img3.jpg);
+    background-size: cover;
+ }
+ .item-4{
+    background-image: url(./imag/imag4.jpg);
+    background-size: cover;
+ }
+ .item-5{
+    background-image: url(./imag/img\ 5.webp);
+    background-size: cover;
+ }
+ .item-6{
+    background-image: url(./imag/gura-6.webp);
+    background-size: cover;
+ }
+.item-7{
+    background-image: url(./imag/house-7.jpg);
+    background-size: cover;
+}
+.item-8{
+    background-image: url(./imag/sand-dunes-8.jpg);
+    background-size: cover;
+}
+

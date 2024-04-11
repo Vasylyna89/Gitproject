@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left, 
+.right {
+width: 50%;
+height: 100%;
+position: absolute;
+top: 0;
+}
+.left{
+    background-color: rgb(107, 107, 222);
+    left: 0;
+}
+.right{
+    background-position: center;
+    background-size: cover;
+     right: 0;
+     background: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    
+}
+input{
+    border: 1px solid darkgrey ;
+    outline: none;
+    border-radius: 23px;
+    padding: 8px;
+    font-size: 1rem;
+}

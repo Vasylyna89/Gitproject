@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    width: 70%;
+    margin: 20px auto 60px;
+    background-color: aquamarine;
+    padding: 80px;
+    border-radius: 20px;
+
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    font-size: 24px;
+    border: none;
+    outline: none; /*граница input при нажате на него*/
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.product{
+    background-color: blueviolet;
+    padding: 30px 60px;
+    border-radius: 20px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+
+}
+.notification
+{
+    display: none; /*убираем уведомление с екрана */
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    background-color: green;
+    padding: 20px;
+    border-radius: 20px;
+}
+.notification -text{
+   font-size: 24px ;
+   color: white;
+}
+
+.delete-btn{
+background-color:  rgb(205, 26, 73);
+    font-size: 20px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+}
